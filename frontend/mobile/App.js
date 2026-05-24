@@ -24,7 +24,7 @@ const VARIANCE_THRESHOLD     = 0.0008;
 const BASELINE_FRAMES        = 5;
 
 export default function App() {
-  const BACKEND_URL = 'http://192.168.68.109:8000'; // ⚠️ Replace with your IPv4
+  const BACKEND_URL = 'http://192.168.0.16:8000'; // ⚠️ Replace with your IPv4
 
   // ── Screens: 'chat' | 'eligibility' | 'form' ─────────────────────────────
   const [screen, setScreen] = useState('chat');
